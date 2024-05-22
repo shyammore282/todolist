@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+.tabsOuter {
+  width: 1170px;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.tabsOuter ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.tabsOuter ul li button {
+  padding: 5px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.activeButton {
+  background-color: red !important;
+  color: white !important;
+}
+
+form {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input {
+  flex-basis: 80%;
+  height: 40px;
+}
+button {
+  flex-basis: 20%;
+}
+.Overlay {
+  width: 1170px;
+  margin: auto;
+}
+.Overlay ul {
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+  list-style: none;
+}
+.Overlay ul li {
+  color: white;
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  text-align: left;
+}
+.Overlay ul li span {
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.activetab {
+  text-decoration: line-through;
+  color: black;
+  background-color: #61dafb !important;
+}
